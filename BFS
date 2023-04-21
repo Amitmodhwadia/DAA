@@ -73,6 +73,5 @@ int main()
     memset(vis, false, sizeof vis);
 
     BFS(grid, vis, 0, 0);
-
     return 0;
 }
